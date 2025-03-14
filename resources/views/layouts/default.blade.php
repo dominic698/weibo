@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Weibo App') - Laravel 新手入门教程</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
