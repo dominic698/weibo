@@ -12029,3 +12029,9 @@ section.user_info h1 {
 .password-wrap a {
   text-decoration: none;
 }
+
+/* Status */
+.status-delete-btn {
+  width: -moz-max-content;
+  width: max-content;
+}
